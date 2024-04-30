@@ -1,0 +1,59 @@
+/*function testeVariaveis(){
+    var n1 = 1;
+    if(n1>0){
+        var n1 = 3;
+        var n2 = 2;
+    }
+    console.log(n1+"+"+n2+"="+(n1+n2))
+}
+testeVariaveis()
+*/
+/*
+function testeVariaveis2(){
+  ///////este codigo dará erro pois como o n1 não é menor que 0, ele não irá criar o var n2 e nem alterar o n1 para 3 ////////////
+    var n1=1
+    if(n1<0){
+        var n1 = 3
+        var n2 = 2
+    }
+    console.log(n1+"+"+n2+"="+(n1+n2))
+}
+testeVariaveis2()
+*/
+/*
+nome = "FICR"
+console.log(nome);
+var nome = "UBEC"
+*/
+/*
+function testeVariaveis4(){
+   ////este codigo irá dar erro pois o let n1 ja foi declarado no começo e dentro do if está sendo declarado novamente, coisa que não é possivel, pois a maquina não irá saber qual let utilizar e dara erro.////////
+    let n1 = 1;
+    if(n1>0){
+        let n1 = 3;
+        let n2 = 2;
+    }
+    console.log(n1+"+"+n2+"="+(n1+n2))
+}
+testeVariaveis4()
+*/
+/*
+function testeVariaveis5(){
+ ////o codigo irá funcionar pois let não é igual a var, onde precisa chamar a variavel completa, apenas o seu valor e já é o suficiente para ser alterado (let n1 = 1 TO n1 = 4)/////////
+    let n1 = 1;
+    let n2 = 2;
+    n1 = 4
+    console.log(n1+"+"+n2+"="+(n1+n2))
+}
+testeVariaveis5()
+*/
+/*
+function testeVariaveis6(){
+    const n1=1;
+    ///const não é uma alteravel, assim que definido seu valor, não é possivel alterar (erro no n1=4)///
+    let n2=2;
+    n1=4; 
+    console.log(n1+"+"+n2+"="+(n1+n2))
+}
+testeVariaveis6()
+*/
